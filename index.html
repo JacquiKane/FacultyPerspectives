@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faculty Perspectives on Academic Integrity | Survey Report</title>
+  <meta name="description" content="Survey findings: faculty perspectives on academic integrity, assessment, and AI.">
+
+  <!-- Fonts & Material Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- App styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===================== APP BAR ===================== -->
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top app-bar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#top">
+        <span class="material-icons-round me-2" aria-hidden="true">verified_user</span>
+        Academic Integrity Survey
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks"
+              aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+          <li class="nav-item"><a class="nav-link" href="#policies">Policies</a></li>
+          <li class="nav-item"><a class="nav-link" href="#reasons">Causes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#assessments">Assessments</a></li>
+          <li class="nav-item"><a class="nav-link" href="#protocols">Protocols</a></li>
+          <li class="nav-item"><a class="nav-link" href="#workload">Workload</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ideal">Ideal Assessment</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <header id="top" class="hero">
+    <div class="container position-relative">
+      <span class="hero-eyebrow">Purdue University &middot; School of Applied &amp; Creative Computing</span>
+      <h1>Faculty Perspectives on Academic Integrity</h1>
+      <p class="lead">
+        Survey findings on the incidence, causes and consequences of academic dishonesty, and how
+        faculty believe assessment must evolve in the age of AI.
+      </p>
+      <a href="#overview" class="btn btn-gold btn-lg">
+        <span class="material-icons-round me-1" aria-hidden="true">insights</span> Explore the findings
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== OVERVIEW ===================== -->
+    <section id="overview" class="section pt-0">
+      <div class="container">
+        <div class="row g-4 stats-wrap" id="statGrid" data-animate="counters"></div>
+
+        <div class="row g-4 mt-2">
+          <div class="col-lg-7">
+            <div class="md-card reveal">
+              <h2 class="h5 card-heading">
+                <span class="material-icons-round" aria-hidden="true">lightbulb</span> Key observations
+              </h2>
+              <ul class="insight-list">
+                <li>
+                  <span class="material-icons-round" aria-hidden="true">layers</span>
+                  <span>Integrity issues were reported <strong>across all course levels</strong>, with a slight
+                  increase at the <strong>100- and 300-levels</strong>.</span>
+                </li>
+                <li>
+                  <span class="material-icons-round" aria-hidden="true">domain</span>
+                  <span><strong>Every respondent</strong> to the reputation question said integrity issues
+                  negatively affect the institute's reputation.</span>
+                </li>
+                <li>
+                  <span class="material-icons-round" aria-hidden="true">trending_up</span>
+                  <span>A large majority believe <strong>measuring student growth</strong> is important and that
+                  assessments should reflect that growth.</span>
+                </li>
+                <li>
+                  <span class="material-icons-round" aria-hidden="true">work</span>
+                  <span><strong>80%</strong> believe an unchecked pattern of dishonesty may leave graduates unable
+                  to apply knowledge effectively, especially under pressure or ambiguity, in their careers.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="md-card callout-dark reveal">
+              <span class="material-icons-round callout-icon" aria-hidden="true">psychology</span>
+              <h2 class="h5">Why it matters</h2>
+              <p class="mb-0">
+                Faculty see academic integrity as more than a policy issue. They tie it to whether grades can
+                be trusted, to the institute's reputation, and to whether graduates are ready for their careers.
+                With AI now a major factor, faculty are also questioning what assessments should measure and how.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== POLICIES (COMMENTS) ===================== -->
+    <section id="policies" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker"><span class="material-icons-round" aria-hidden="true">gavel</span> Responses to Integrity Issues</span>
+          <h2 class="section-title">How faculty respond to academic dishonesty</h2>
+          <p class="section-lead">
+            Faculty described their syllabus language and personal policies. These range from standard
+            university wording to strict penalties, chances to redo work, and course-specific rules on AI use.
+          </p>
+        </div>
+        <div class="comment-explorer" data-set="policies"></div>
+      </div>
+    </section>
+
+    <!-- ===================== REASONS ===================== -->
+    <section id="reasons" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker"><span class="material-icons-round" aria-hidden="true">bar_chart</span> Causes</span>
+          <h2 class="section-title">Perceived reasons for dishonesty</h2>
+          <p class="section-lead">
+            Faculty named over-reliance on AI as the most significant factor. The percentages add up to more
+            than 100%, which suggests respondents could choose more than one factor.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-8">
+            <div class="md-card reveal">
+              <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
+                <h3 class="h6 mb-0 fw-semibold">Contributing factors (% of respondents)</h3>
+                <div class="btn-group btn-group-sm" role="group" id="reasonsSort" aria-label="Sort factors">
+                  <button type="button" class="btn btn-outline-dark active" data-order="desc">Highest first</button>
+                  <button type="button" class="btn btn-outline-dark" data-order="survey">Survey order</button>
+                </div>
+              </div>
+              <div id="reasonsChart" data-animate="bars"></div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex flex-column gap-4">
+            <div class="md-card mini-stat reveal">
+              <span class="material-icons-round mini-icon" aria-hidden="true">smart_toy</span>
+              <div>
+                <div class="mini-value">58%</div>
+                <div class="mini-label">Over-reliance on AI is the leading factor</div>
+              </div>
+            </div>
+            <div class="md-card mini-stat reveal">
+              <span class="material-icons-round mini-icon" aria-hidden="true">event_busy</span>
+              <div>
+                <div class="mini-value">53%</div>
+                <div class="mini-label">Point to students not attending class</div>
+              </div>
+            </div>
+            <div class="md-card mini-stat reveal">
+              <span class="material-icons-round mini-icon" aria-hidden="true">help_outline</span>
+              <div>
+                <div class="mini-value">11%</div>
+                <div class="mini-label">Did not know why a student might cheat</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ASSESSMENTS (COMMENTS) ===================== -->
+    <section id="assessments" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker"><span class="material-icons-round" aria-hidden="true">assignment</span> Value of Assessments</span>
+          <h2 class="section-title">What faculty believe assessments should do</h2>
+          <p class="section-lead">
+            Faculty wrote about the purpose of assessment, the difference between formative and summative work,
+            grading process instead of artifacts, and how generative AI is changing what can be measured.
+          </p>
+        </div>
+        <div class="comment-explorer" data-set="assessments"></div>
+      </div>
+    </section>
+
+    <!-- ===================== PROTOCOLS ===================== -->
+    <section id="protocols" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker"><span class="material-icons-round" aria-hidden="true">fact_check</span> Institutional Protocols</span>
+          <h2 class="section-title">Do current safeguards work?</h2>
+          <p class="section-lead">
+            Faculty rated how well Purdue's protocols discourage dishonesty, how well the technical tools work,
+            and how visibly the institution emphasizes integrity.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="md-card reveal">
+              <h3 class="h6 card-heading"><span class="material-icons-round" aria-hidden="true">rule</span> Are current protocols effective?</h3>
+              <div class="stacked-bar my-3" data-animate="bars" role="img"
+                   aria-label="43% depends on the student, 35% not effective, 22% effective">
+                <div class="stacked-seg seg-1" data-value="43">43%</div>
+                <div class="stacked-seg seg-2" data-value="35">35%</div>
+                <div class="stacked-seg seg-3" data-value="22">22%</div>
+              </div>
+              <ul class="legend">
+                <li><span class="dot seg-1"></span> Depends on the student <strong>43%</strong></li>
+                <li><span class="dot seg-2"></span> Not effective <strong>35%</strong></li>
+                <li><span class="dot seg-3"></span> Effective <strong>22%</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="md-card text-center reveal">
+              <h3 class="h6 card-heading justify-content-center"><span class="material-icons-round" aria-hidden="true">lock</span> Technical strategies</h3>
+              <div class="donut my-3" data-animate="donut" data-percent="60" role="img" aria-label="60 percent">
+                <span class="donut-label">0%</span>
+              </div>
+              <p class="text-muted small mb-0">
+                rate tools such as <strong>LockDown Browser</strong> and <strong>electronic attendance takers</strong>
+                as <strong>ineffective</strong> at preventing academic dishonesty.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="md-card reveal">
+              <h3 class="h6 card-heading"><span class="material-icons-round" aria-hidden="true">campaign</span> Institutional emphasis</h3>
+              <div class="stacked-bar my-3" data-animate="bars" role="img"
+                   aria-label="70% see clear emphasis, 30% say clarity is lacking">
+                <div class="stacked-seg seg-1" data-value="70">70%</div>
+                <div class="stacked-seg seg-2" data-value="30">30%</div>
+              </div>
+              <ul class="legend">
+                <li><span class="dot seg-1"></span> Clear, visible emphasis by Purdue <strong>70%</strong></li>
+                <li><span class="dot seg-2"></span> Clarity is lacking <strong>30%</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WORKLOAD ===================== -->
+    <section id="workload" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker"><span class="material-icons-round" aria-hidden="true">schedule</span> Workload &amp; Concerns</span>
+          <h2 class="section-title">Grading time and faculty concerns</h2>
+          <p class="section-lead">
+            Faculty spend a lot of time grading, yet many say grading doesn't let them fully see student growth.
+            Some also worry about what enforcing integrity could mean for their own evaluations.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="md-card reveal">
+              <h3 class="h6 card-heading"><span class="material-icons-round" aria-hidden="true">timer</span> Weekly grading time</h3>
+              <div class="d-flex align-items-baseline gap-2 mt-2">
+                <span class="big-number">6.78</span><span class="text-muted">hours / week on average</span>
+              </div>
+              <div class="scale mt-3" data-animate="bars">
+                <div class="scale-track"><div class="scale-fill" data-value="33.9"></div></div>
+                <div class="scale-labels"><span>0 h</span><span>10 h</span><span>20 h (highest reported)</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="md-card reveal d-flex flex-column flex-sm-row align-items-center gap-4">
+              <div class="donut donut-sm" data-animate="donut" data-percent="56" role="img" aria-label="56 percent">
+                <span class="donut-label">0%</span>
+              </div>
+              <div>
+                <h3 class="h6 card-heading"><span class="material-icons-round" aria-hidden="true">troubleshoot</span> Limits of grading</h3>
+                <p class="text-muted mb-0">
+                  of faculty feel <strong>unable to fully analyze student growth and comprehension</strong>
+                  through grading.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="md-card callout-dark reveal d-flex flex-column flex-md-row align-items-md-center gap-4">
+              <div class="callout-stat">39%</div>
+              <div>
+                <h3 class="h5 mb-1">Concern about yearly evaluations</h3>
+                <p class="mb-0">
+                  of respondents believe their <strong>performance review would be negatively impacted</strong>
+                  if consequences for academic integrity violations are enforced.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== IDEAL ASSESSMENT (COMMENTS) ===================== -->
+    <section id="ideal" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker"><span class="material-icons-round" aria-hidden="true">workspace_premium</span> Ideal Assessment</span>
+          <h2 class="section-title">What would more accurately reflect mastery?</h2>
+          <p class="section-lead">
+            Faculty and TAs described the challenges and possibilities of assessments that truly capture
+            mastery, from panel defenses to iterative feedback and close attention to each student's voice.
+          </p>
+        </div>
+        <div class="comment-explorer" data-set="ideal"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+      <span>Survey: Faculty Perspectives on Academic Integrity &middot; Purdue University, School of Applied &amp; Creative Computing</span>
+      <span>&copy; <span id="year"></span> &middot; Built with jQuery, Bootstrap &amp; Material Icons</span>
+    </div>
+  </footer>
+
+  <!-- Back-to-top floating action button -->
+  <button id="backToTop" class="fab" type="button" aria-label="Back to top">
+    <span class="material-icons-round" aria-hidden="true">arrow_upward</span>
+  </button>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
